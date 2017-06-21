@@ -1,79 +1,229 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
     <head>
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
         <link rel="stylesheet" href="assets/css/main.css">
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,700">
+        <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" rel="stylesheet">
 
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-        <link rel="icon" href="#">
+        <link rel="icon" href="./assets/img/favicon_32-vfl8NGn4k.png">
 
-        <meta name="description" content="">
+        <meta name="description" content="Layout do YouTube com CSS Grid Layout e Atomic Design">
         <title>YouTube - CSS Grid</title>
     </head>
+
     <body>
         <div class="container">
+
             <header class="header">
-                <img class="header__menu-icon" src="./assets/img/view-sequential.svg" alt="exibir menu" />
-                <img class="header__logo" src="./assets/img/youtube-logo.svg" alt="youtube logo" />
+                <img class="header__menu-icon" src="./assets/icon/view-sequential.svg" alt="exibir menu" />
+                <img class="header__logo" src="./assets/icon/youtube-logo.svg" alt="youtube logo" />
+                
                 <div class="search">
                     <input class="search__input" type="search" placeholder="Pesquisar"/>
                     <button class="search__button">
-                        <img class="search__button__icon" src="./assets/img/magnify.svg" alt="pesquisar">
+                        <img class="search__button__icon" src="./assets/icon/magnify.svg" alt="pesquisar">
                     </button>
                 </div>
+                
                 <div class="user-info">
-                    <img class="user-info__icon-upload" src="./assets/img/upload.svg" alt="upload" />
-                    <img class="user-info__icon-notification" src="./assets/img/bell.svg" alt="notificação" />
+                    <img class="user-info__icon-upload" src="./assets/icon/upload.svg" alt="upload" />
+                    <img class="user-info__icon-notification" src="./assets/icon/bell.svg" alt="notificação" />
                     <img class="user-info__icon-profile" src="./assets/img/profile-picture.jpg" alt="perfil" />
                 </div>
             </header>
+
             <aside class="aside">
                 <section class="section-list">
+                    
                     <ul class="list">
                         <li class="list__item">
-                            <img class="list__item__img" src="./assets/img/home.svg" alt="início"/>
+                            <img class="list__item__icon" src="./assets/icon/home.svg" alt="início"/>
                             <span class="list__item__text">Início</span>
                         </li>
+                        
                         <li class="list__item">
-                            <img class="list__item__img" src="./assets/img/fire.svg" alt="em alta"/>
+                            <img class="list__item__icon" src="./assets/icon/fire.svg" alt="em alta"/>
                             <span class="list__item__text">Em alta</span>
                         </li>
+                        
                         <li class="list__item">
-                            <img class="list__item__img" src="./assets/img/youtube-play.svg" alt="inscições"/>
+                            <img class="list__item__icon" src="./assets/icon/youtube-play.svg" alt="inscições"/>
                             <span class="list__item__text">Inscrições</span>
                         </li>
                     </ul>
+
                 </section>
+
                 <section class="section-list">
                     <h2 class="section-list__title">Biblioteca</h2>
+                    
                     <ul class="list">
                         <li class="list__item">
-                            <img class="list__item__img" src="./assets/img/history.svg" alt="histórico"/>
+                            <img class="list__item__icon" src="./assets/icon/history.svg" alt="histórico"/>
                             <span class="list__item__text">Histórico</span>
                         </li>
+                        
                         <li class="list__item">
-                            <img class="list__item__img" src="./assets/img/clock.svg" alt="assistir mais tarde"/>
+                            <img class="list__item__icon" src="./assets/icon/clock.svg" alt="assistir mais tarde"/>
                             <span class="list__item__text">Assistir mais tarde</span>
                         </li>
+                        
                         <li class="list__item">
-                            <img class="list__item__img" src="./assets/img/thumb-up.svg" alt="Vídeos marcados"/>
+                            <img class="list__item__icon" src="./assets/icon/thumb-up.svg" alt="Vídeos marcados"/>
                             <span class="list__item__text">Vídeos marcados</span>
                         </li>
+                        
                         <li class="list__item">
-                            <img class="list__item__img" src="./assets/img/playlist-play.svg" alt="podcast"/>
+                            <img class="list__item__icon" src="./assets/icon/playlist-play.svg" alt="podcast"/>
                             <span class="list__item__text">Podcast</span>
                         </li>
+                        
                         <li class="list__item">
-                            <img class="list__item__img" src="./assets/img/chevron-down.svg" alt="mostrar mais"/>
+                            <img class="list__item__icon" src="./assets/icon/chevron-down.svg" alt="mostrar mais"/>
                             <span class="list__item__text">Mostrar mais</span>
                         </li>
+                </section>
+                
+                <section class="section-list">
+                    <h2 class="section-list__title">Inscrições</h2>
+                    
+                    <ul class="list">
+                        <li class="list__item">
+                            <img class="list__item__img" src="./assets/img/css-cast-show.jpg" alt="Css CastShow"/>
+                            <span class="list__item__text">Css CastShow</span>
+                        </li>
+                        
+                        <li class="list__item">
+                            <img class="list__item__img" src="./assets/img/bazil-js.jpg" alt="BrazilJS"/>
+                            <span class="list__item__text">BrazilJS</span>
+                        </li>
+                        
+                        <li class="list__item">
+                            <img class="list__item__img" src="./assets/img/front-in-bh.jpg" alt="Front in BH"/>
+                            <span class="list__item__text">Front in BH</span>
+                        </li>
+                        
+                        <li class="list__item">
+                            <img class="list__item__img" src="./assets/img/fun-fun-function.jpg" alt="funfunfunction"/>
+                            <span class="list__item__text">funfunfunction</span>
+                        </li>
+                        
+                        <li class="list__item">
+                            <img class="list__item__img" src="./assets/img/gdg-bh.jpg" alt="GDG Belo Horizonte"/>
+                            <span class="list__item__text">GDG Belo Horiz...</span>
+                        </li>
+                        
+                        <li class="list__item">
+                            <img class="list__item__img" src="./assets/img/js-conf.jpg" alt="JSConf"/>
+                            <span class="list__item__text">JSConf</span>
+                        </li>
+                        
+                        <li class="list__item">
+                            <img class="list__item__img" src="./assets/img/mozila-hacks.jpg" alt="Mozilla Hacks"/>
+                            <span class="list__item__text">Mozilla Hacks</span>
+                        </li>
+                        
+                        <li class="list__item">
+                            <img class="list__item__img" src="./assets/img/rachel-andrew.jpg" alt="Rachel Andrew"/>
+                            <span class="list__item__text">Rachel Andrew</span>
+                        </li>
+                        
+                        <li class="list__item">
+                            <img class="list__item__img" src="./assets/img/v-plus-plus.jpg" alt="V PlusPlus"/>
+                            <span class="list__item__text">V PlusPlus</span>
+                        </li>
+                        
+                        <li class="list__item">
+                            <img class="list__item__img" src="./assets/img/web-school.jpg" alt="Webschool.io - JavaScript"/>
+                            <span class="list__item__text">Webschool.io -...</span>
+                        </li>
                     </ul>
+                
                 </section>
             </aside>
-            <main class="main"></main>
+            
+            <main class="main">
+                <iframe class="main__advertising" src="https://www.youtube.com/embed/mvlYATxtw38" frameborder="0" allowfullscreen></iframe>
+               
+               <section class="video-section">
+                   <article class="video-list">
+                        <h2 class="video-list__title">Recomendado</h2>
+                        <div class="card">
+                            <iframe class="card__video" src="https://www.youtube.com/embed/FrgdNN97r8E" frameborder="0" allowfullscreen></iframe>
+                            <h3 class="card__title">CSS X Back-End - Double Kill</h3>
+                            <div class="card__name">Css CastShow</div>
+                            <span class="card__views">1,3 mil visualizações</span>
+                            <span class="card__published-date">7 meses atrás</span>
+                        </div>
+                        
+                        <div class="card">
+                            <iframe class="card__video" src="https://www.youtube.com/embed/FrgdNN97r8E" frameborder="0" allowfullscreen></iframe>
+                            <h3 class="card__title">CSS X Back-End - Double Kill</h3>
+                            <div class="card__name">Css CastShow</div>
+                            <span class="card__views">1,3 mil visualizações</span>
+                            <span class="card__published-date">7 meses atrás</span>
+                        </div>
+                        
+                        <div class="card">
+                            <iframe class="card__video" src="https://www.youtube.com/embed/FrgdNN97r8E" frameborder="0" allowfullscreen></iframe>
+                            <h3 class="card__title">CSS X Back-End - Double Kill</h3>
+                            <div class="card__name">Css CastShow</div>
+                            <span class="card__views">1,3 mil visualizações</span>
+                            <span class="card__published-date">7 meses atrás</span>
+                        </div>
+                        
+                        <div class="card">
+                            <iframe class="card__video" src="https://www.youtube.com/embed/FrgdNN97r8E" frameborder="0" allowfullscreen></iframe>
+                            <h3 class="card__title">CSS X Back-End - Double Kill</h3>
+                            <div class="card__name">Css CastShow</div>
+                            <span class="card__views">1,3 mil visualizações</span>
+                            <span class="card__published-date">7 meses atrás</span>
+                        </div>
+                   </article>
+                    <article class="video-list">
+                        <h2 class="video-list__title">Recomendações de transmissões ao vivo</h2>
+                        <div class="card">
+                            <iframe class="card__video" src="https://www.youtube.com/embed/FrgdNN97r8E" frameborder="0" allowfullscreen></iframe>
+                            <h3 class="card__title">CSS X Back-End - Double Kill</h3>
+                            <div class="card__name">Css CastShow</div>
+                            <span class="card__views">1,3 mil visualizações</span>
+                            <span class="card__published-date">7 meses atrás</span>
+                        </div>
+                        
+                        <div class="card">
+                            <iframe class="card__video" src="https://www.youtube.com/embed/FrgdNN97r8E" frameborder="0" allowfullscreen></iframe>
+                            <h3 class="card__title">CSS X Back-End - Double Kill</h3>
+                            <div class="card__name">Css CastShow</div>
+                            <span class="card__views">1,3 mil visualizações</span>
+                            <span class="card__published-date">7 meses atrás</span>
+                        </div>
+                        
+                        <div class="card">
+                            <iframe class="card__video" src="https://www.youtube.com/embed/FrgdNN97r8E" frameborder="0" allowfullscreen></iframe>
+                            <h3 class="card__title">CSS X Back-End - Double Kill</h3>
+                            <div class="card__name">Css CastShow</div>
+                            <span class="card__views">1,3 mil visualizações</span>
+                            <span class="card__published-date">7 meses atrás</span>
+                        </div>
+                        
+                        <div class="card">
+                            <iframe class="card__video" src="https://www.youtube.com/embed/FrgdNN97r8E" frameborder="0" allowfullscreen></iframe>
+                            <h3 class="card__title">CSS X Back-End - Double Kill</h3>
+                            <div class="card__name">Css CastShow</div>
+                            <span class="card__views">1,3 mil visualizações</span>
+                            <span class="card__published-date">7 meses atrás</span>
+                        </div>
+                   </article>
+               </section>
+            
+            </main>
+        
         </div>
+    
     </body>
+
 </html>
