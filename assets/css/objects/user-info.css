@@ -1,0 +1,17 @@
+.user-info {
+    width: 156px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+@media(max-width: 470px) {
+    .user-info {
+        margin-left: auto;
+    }
+}
+
+.user-info__icon-profile {
+    border-radius: 50%;
+}

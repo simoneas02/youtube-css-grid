@@ -1,0 +1,8 @@
+.main {
+    background-color: #fafafa;
+    grid-area: main;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    justify-content: center;
+}

@@ -1,0 +1,18 @@
+.container {
+    display: grid;
+    height: 100%;
+    grid-template-columns: 240px 1fr;
+    grid-template-rows: 56px 1fr;
+    grid-template-areas:
+        'header header'
+        'aside main';
+}
+
+@media(max-width: 1108px) {
+    .container {
+        grid-template-columns: 1fr;
+        grid-template-areas:
+        'header'
+        'main';
+    }
+}

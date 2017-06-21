@@ -1,0 +1,11 @@
+.section-list {
+    border-bottom: 1px solid #eeeeee;
+}
+
+.section-list__title {
+    text-transform: uppercase;
+    font-size: 14px;
+    color: #a0a0a0;
+    padding: 8px 24px;
+    margin: 0;
+}
