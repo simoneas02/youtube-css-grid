@@ -1,0 +1,16 @@
+.video-list {
+    padding: 10px 0;
+    border-bottom: 1px solid #eeeeee;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.video-list__title {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    color: #212121;
+    font-weight: 500;
+    margin: 0 2px;
+    width: 100%;
+    padding: 10px 0;
+}

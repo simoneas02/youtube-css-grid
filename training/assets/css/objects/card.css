@@ -1,0 +1,58 @@
+.card {
+    width: 25%;
+    padding: 5px 2px;
+    margin-bottom: 24px;
+}
+
+@media(max-width: 780px) {
+    .card {
+        width: 33.33%
+    }
+}
+
+@media(max-width: 590px) {
+    .card {
+        width: 50%
+    }
+}
+
+@media(max-width: 450px) {
+    .card {
+        width: 100%
+    }
+}
+
+.card__video {
+    width: 100%;
+}
+
+.card__title {
+    margin: 0;
+    font-size: 14px;
+    color: #1d1d1d;
+    padding: 10px 8px 0 0;
+}
+
+.card__name {
+    width: 100%;
+    font-size: 13px;
+    font-weight: 400;
+    color: #111111;
+    padding: 10px 8px 0 0;
+}
+
+.card__views {
+    display: inline-block;
+    width: 100%;
+    font-size: 13px;
+    font-weight: 500;
+    color: #8f8f8f;
+}
+
+.card__published-date {
+    width: 100%;
+    display: inline-block;
+    font-size: 13px;
+    font-weight: 500;
+    color: #8f8f8f;
+}

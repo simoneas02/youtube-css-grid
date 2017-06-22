@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+    <head>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+        <link rel="stylesheet" href="assets/css/main.css">
+        <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" rel="stylesheet">
+
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="icon" href="./assets/img/favicon_32-vfl8NGn4k.png">
+
+        <meta name="description" content="Layout do YouTube com CSS Grid Layout e Atomic Design">
+        <title>YouTube - CSS Grid</title>
+    </head>
+
+    <body>
+        <div class="container">
+
+            <header class="header">
+                <img class="menu-icon" src="./assets/icon/view-sequential.svg" alt="exibir menu" />
+                <img class="logo" src="./assets/icon/youtube-logo.svg" alt="youtube logo" />
+                
+                <div class="search">
+                    <input class="search__input" type="search" placeholder="Pesquisar"/>
+                    <button class="search__button">
+                        <img class="search__button__icon" src="./assets/icon/magnify.svg" alt="pesquisar">
+                    </button>
+                </div>
+                
+                <div class="user-info">
+                    <img class="user-info__icon-upload" src="./assets/icon/upload.svg" alt="upload" />
+                    <img class="user-info__icon-notification" src="./assets/icon/bell.svg" alt="notificação" />
+                    <img class="user-info__icon-profile" src="./assets/img/profile-picture.jpg" alt="perfil" />
+                </div>
+            </header>
+
+            <aside class="aside">
+                <section class="section-list">
+                    
+                    <ul class="list">
+                        <li class="list__item">
+                            <img class="list__item__icon" src="./assets/icon/home.svg" alt="início"/>
+                            <span class="list__item__text">Início</span>
+                        </li>
+                        
+                        <li class="list__item">
+                            <img class="list__item__icon" src="./assets/icon/fire.svg" alt="em alta"/>
+                            <span class="list__item__text">Em alta</span>
+                        </li>
+                        
+                        <li class="list__item">
+                            <img class="list__item__icon" src="./assets/icon/youtube-play.svg" alt="inscições"/>
+                            <span class="list__item__text">Inscrições</span>
+                        </li>
+                    </ul>
+
+                </section>
+
+                <section class="section-list">
+                    <h2 class="section-list__title">Biblioteca</h2>
+                    
+                    <ul class="list">
+                        <li class="list__item">
+                            <img class="list__item__icon" src="./assets/icon/history.svg" alt="histórico"/>
+                            <span class="list__item__text">Histórico</span>
+                        </li>
+                        
+                        <li class="list__item">
+                            <img class="list__item__icon" src="./assets/icon/clock.svg" alt="assistir mais tarde"/>
+                            <span class="list__item__text">Assistir mais tarde</span>
+                        </li>
+                        
+                        <li class="list__item">
+                            <img class="list__item__icon" src="./assets/icon/thumb-up.svg" alt="Vídeos marcados"/>
+                            <span class="list__item__text">Vídeos marcados</span>
+                        </li>
+                        
+                        <li class="list__item">
+                            <img class="list__item__icon" src="./assets/icon/playlist-play.svg" alt="podcast"/>
+                            <span class="list__item__text">Podcast</span>
+                        </li>
+                        
+                        <li class="list__item">
+                            <img class="list__item__icon" src="./assets/icon/chevron-down.svg" alt="mostrar mais"/>
+                            <span class="list__item__text">Mostrar mais</span>
+                        </li>
+                </section>
+                
+                <section class="section-list">
+                    <h2 class="section-list__title">Inscrições</h2>
+                    
+                    <ul class="list">
+                        <li class="list__item">
+                            <img class="list__item__img" src="./assets/img/css-cast-show.jpg" alt="Css CastShow"/>
+                            <span class="list__item__text">Css CastShow</span>
+                        </li>
+                        
+                        <li class="list__item">
+                            <img class="list__item__img" src="./assets/img/bazil-js.jpg" alt="BrazilJS"/>
+                            <span class="list__item__text">BrazilJS</span>
+                        </li>
+                        
+                        <li class="list__item">
+                            <img class="list__item__img" src="./assets/img/front-in-bh.jpg" alt="Front in BH"/>
+                            <span class="list__item__text">Front in BH</span>
+                        </li>
+                        
+                        <li class="list__item">
+                            <img class="list__item__img" src="./assets/img/fun-fun-function.jpg" alt="funfunfunction"/>
+                            <span class="list__item__text">funfunfunction</span>
+                        </li>
+                        
+                        <li class="list__item">
+                            <img class="list__item__img" src="./assets/img/gdg-bh.jpg" alt="GDG Belo Horizonte"/>
+                            <span class="list__item__text">GDG Belo Horiz...</span>
+                        </li>
+                        
+                        <li class="list__item">
+                            <img class="list__item__img" src="./assets/img/js-conf.jpg" alt="JSConf"/>
+                            <span class="list__item__text">JSConf</span>
+                        </li>
+                        
+                        <li class="list__item">
+                            <img class="list__item__img" src="./assets/img/mozila-hacks.jpg" alt="Mozilla Hacks"/>
+                            <span class="list__item__text">Mozilla Hacks</span>
+                        </li>
+                        
+                        <li class="list__item">
+                            <img class="list__item__img" src="./assets/img/rachel-andrew.jpg" alt="Rachel Andrew"/>
+                            <span class="list__item__text">Rachel Andrew</span>
+                        </li>
+                        
+                        <li class="list__item">
+                            <img class="list__item__img" src="./assets/img/v-plus-plus.jpg" alt="V PlusPlus"/>
+                            <span class="list__item__text">V PlusPlus</span>
+                        </li>
+                        
+                        <li class="list__item">
+                            <img class="list__item__img" src="./assets/img/web-school.jpg" alt="Webschool.io - JavaScript"/>
+                            <span class="list__item__text">Webschool.io -...</span>
+                        </li>
+                    </ul>
+                
+                </section>
+            </aside>
+            
+            <main class="main">
+                <img class="advertising" src="./assets/img/propaganda.PNG" />
+
+               <section class="video-section">
+                   <article class="video-list">
+                        <h2 class="video-list__title">Recomendado</h2>
+                        <div class="card">
+                            <img class="card__video" src="./assets/img/cssXback.PNG" />
+                            <h3 class="card__title">CSS X Back-End - Double Kill</h3>
+                            <div class="card__name">Css CastShow</div>
+                            <span class="card__views">1,3 mil visualizações</span>
+                            <span class="card__published-date">7 meses atrás</span>
+                        </div>
+
+                        <div class="card">
+                            <img class="card__video" src="./assets/img/css-grid.PNG" />
+                            <h3 class="card__title">Absolute Positioning and grid layout</h3>
+                            <div class="card__name">Rachel Andrew</div>
+                            <span class="card__views">1,3 mil visualizações</span>
+                            <span class="card__published-date">6 meses atrás</span>
+                        </div>
+
+                        <div class="card">
+                            <img class="card__video" src="./assets/img/grid-diogo.PNG" />
+                            <h3 class="card__title">Diogo Moretti - "CSS {Grid} Layout: It's evolution baby" - Vale do Carbono Conf</h3>
+                            <div class="card__name">BrazilJS</div>
+                            <span class="card__views">572 visualizações</span>
+                            <span class="card__published-date">2 dias atrás</span>
+                        </div>
+
+                        <div class="card">
+                            <img class="card__video" src="./assets/img/minecraft.PNG" />
+                            <h3 class="card__title">Desenhando cubo do Minecraft em 3D com CSS - By Afonso Pacifer</h3>
+                            <div class="card__name">Css CastShow</div>
+                            <span class="card__views">330 visualizações</span>
+                            <span class="card__published-date">2 dias atrás</span>
+                        </div>
+                   </article>
+                    <article class="video-list">
+                        <h2 class="video-list__title">Recomendações de transmissões ao vivo</h2>
+                        <div class="card">
+                            <img class="card__video" src="./assets/img/heart.PNG" />
+                            <h3 class="card__title">Django Girls heart com CSS Grid Layout e Custom Properties - By Simone Amorim</h3>
+                            <div class="card__name">Css CastShow</div>
+                            <span class="card__views">416 visualizações</span>
+                            <span class="card__published-date">3 dias atrás</span>
+                        </div>
+
+                        <div class="card">
+                            <img class="card__video" src="./assets/img/funfun.PNG" />
+                            <h3 class="card__title">Higher-order functions - Part 1 of Functional Programming in JavaScript</h3>
+                            <div class="card__name">funfunfunction</div>
+                            <span class="card__views">233 mil visualizações</span>
+                            <span class="card__published-date">2 anos atrás</span>
+                        </div>
+
+                        <div class="card">
+                            <img class="card__video" src="./assets/img/es6.PNG" />
+                            <h3 class="card__title">ES6 SERIE: Atalho para nome de atributo em objetos (Ep.01)</h3>
+                            <div class="card__name">Webschool.io - JavaScript</div>
+                            <span class="card__views">3 mil visualizações</span>
+                            <span class="card__published-date">1 ano atrás</span>
+                        </div>
+
+                        <div class="card">
+                            <img class="card__video" src="./assets/img/alda.PNG" />
+                            <h3 class="card__title">Alda Rocha - O front, as minas e pah!</h3>
+                            <div class="card__name">Front in BH</div>
+                            <span class="card__views">249 visualizações</span>
+                            <span class="card__published-date">9 meses atrás</span>
+                        </div>
+                   </article>
+               </section>
+            
+            </main>
+        
+        </div>
+    
+    </body>
+
+</html>

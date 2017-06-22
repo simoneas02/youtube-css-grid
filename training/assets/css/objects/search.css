@@ -1,0 +1,38 @@
+.search {
+    flex: 1;
+    display: flex;
+    align-items: center;
+}
+
+@media(min-width: 660px) {
+    .search {
+        margin: 0 40px;
+    }
+}
+
+@media(max-width: 470px) {
+    .search {
+        display: none;
+    }
+}
+
+.search__input {
+    box-sizing: content-box;
+    width: 100%;
+    max-width: 482px;
+    height: 24px;
+    padding: 2px 6px;
+}
+
+.search__button {
+    box-sizing: content-box;
+    width: 51px;
+    height: 26px;
+    vertical-align: middle;
+    padding: 1px 6px;
+}
+
+.search__button__icon {
+    width: 20px;
+    height: 20px;
+}
