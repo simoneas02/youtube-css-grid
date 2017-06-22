@@ -1,7 +1,9 @@
 # Workshop: Dominando CSS Layouts na prática com Grid Layout
 
 ### [Slides Apresentados no Workshop](https://speakerdeck.com/simoneas02/workshop-dominando-css-layouts-na-pratica-com-grid-layout) 
-### [YouTube Layout - Demo](simoneas02.github.io/youtube-css-grid)
+### [Acesse o pojeto YouTube Layout online](https://simoneas02.github.io/youtube-css-grid/)
+
+![YouTube Layout - Demo](./final/assets/img/demo.gif)
 
 <hr>
 
