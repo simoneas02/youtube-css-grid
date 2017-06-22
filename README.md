@@ -9,7 +9,7 @@
 
 - [História do CSS Layout](https://www.youtube.com/watch?v=94aYg5D8N0s&t=58s)
 - [O que é CSS Grid Layout](https://www.w3.org/TR/css-grid-1/)
-- [CSS Grid Layout x Flexbox]()
+- [CSS Grid Layout x Flexbox](https://rachelandrew.co.uk/archives/2016/03/30/should-i-use-grid-or-flexbox/)
 - [Terminologia](https://codepen.io/simoneas02/post/grid-layout)
     - Grid Lines
     - Grid Track
@@ -17,23 +17,23 @@
     - Grid Area
 <hr>
 
-## [Collection Workshop](bit.ly/css-grid-layouts)
+## [Collection Workshop](https://codepen.io/collection/AdOVGW/)
 
-### [01 - Definindo um Grid](bit.ly/01-definindo-grid)
+### [01 - Definindo um Grid](https://codepen.io/simoneas02/pen/gRRLRb)
 
 ```CSS
     display: grid
     display: inline-grid
 ```
 
-### [02 - Line Base Placement](bit.ly/02-placement)
+### [02 - Line Base Placement](https://codepen.io/simoneas02/pen/qjjqyw)
 
 ```CSS
     grid-template-columns: 50px 100px 200px;
     grid-template-rows: 100px 150px;
 ```
 
-### [03 - Line Base Position](bit.ly/03-position)
+### [03 - Line Base Position](https://codepen.io/simoneas02/pen/LLLbXK)
 
 ```CSS
     .e {
@@ -44,7 +44,7 @@
     }
 ```
 
-### [04 - Line Base Position - Shorthands](bit.ly/04-position-shorthands)
+### [04 - Line Base Position - Shorthands](https://codepen.io/simoneas02/pen/BZZQeW)
 
 ```CSS
     .e {
@@ -57,7 +57,7 @@
     }
 ```
 
-### [05 - Grid Gap](bit.ly/05-grid-gap)
+### [05 - Grid Gap](https://codepen.io/simoneas02/pen/GEEror)
 
 ```CSS
     grid-column-gap: 10px;
@@ -68,7 +68,7 @@
     grid-gap: 20px;
 ```
 
-- [06 - Area Naming](bit.ly/06-area-naming)
+### [06 - Area Naming](https://codepen.io/simoneas02/pen/LLLxLp)
 
 ```CSS
     grid-template-areas:
@@ -111,6 +111,6 @@
 ```
 <hr>
 
-- [Hands On - YouTube Layout ]()
+- [Hands On - YouTube Layout ](https://github.com/simoneas02/youtube-css-grid/tree/master/training)
 - [Suporte](https://caniuse.com/#feat=css-grid)
 - [Quer saber mais](https://github.com/simoneas02/awesome-grid-layout)
